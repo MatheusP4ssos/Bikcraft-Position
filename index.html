@@ -8,51 +8,51 @@
 </head>
 
 <body>
-  <img src="./img/bikcraft.svg" alt="Bikcraft">
+  <header> <!-- Marcador de conteúdo do cabeçalho -->
+    <img class="logo" src="./img/bikcraft.svg" alt="Bikcraft">
+    <nav class="menu" aria-label="Menu principal"> <!-- Marcador de conteúdo de navegação -->
+      <a href="/">Sobre</a>
+      <a href="/">Produto</a>
+      <a href="/">Lojas</a>
+      <a href="/">Contato</a>
+    </nav>
+  </header>
 
-  <div class="menu">
-    <a href="/">Sobre</a>
-    <a href="/">Produto</a>
-    <a href="/">Lojas</a>
-    <a href="/">Contato</a>
-  </div>
-
-  <div class="conteudo">
-    <div class="introducao">
-      <span class="detalhe"></span>
+  <main class="conteudo" aria-label="Conteúdo principal"> <!-- Marcador de conteúdo principal -->
+    <article class="introducao" aria-label="Introdução"> <!-- Marcador de conteúdo da introdução -->
       <h1>Bicicletas Feitas a Mão</h1>
       <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-      <a class="botao" href="/">Saiba mais</a>
-    </div>
+      <a class="botao" href="/" aria-label="Saiba mais sobre a Nimbus Stark">Saiba mais</a>
+    </article>
 
     <img src="img/bicicleta.jpg" alt="Bicicleta bikcraft preta">
 
     <h2 class="subtitulo">Vantagens Bikcraft</h2>
 
-    <div class="vantagens">
-      <div class="vantagens-item">
+    <section class="vantagens" aria-label="Vantagens da Bikcraft"> <!-- Marcador de conteúdo de seção -->
+      <article class="vantagens-item" aria-label="Vantagem do motor elétrico">
         <img src="./img/eletrica.svg" alt="">
         <h3>Motor elétrico</h3>
         <p>Permite você viajar distâncias inimagináveis com a sua bike.</p>
-      </div>
+      </article>
 
-      <div class="vantagens-item">
+      <article class="vantagens-item" aria-label="Vantagem da velocidade">
         <img src="./img/velocidade.svg" alt="">
         <h3>40 Km/h</h3>
         <p>A mais rápida bicicleta elétrica disponível no mercado.</p>
-      </div>
+      </article>
 
-      <div class="vantagens-item">
+      <article class="vantagens-item" aria-label="Vantagem do rastreador">
         <img src="./img/rastreador.svg" alt="">
         <h3>Rastreador</h3>
         <p>Rastreador e sistema anti-furto para garantir seu sossego.</p>
-      </div>
-    </div>
-  </div>
+      </article>
+    </section>
+  </main>
 
-  <div class="rodape">
+  <footer class="rodape" aria-label="Rodapé"> <!-- Marcador de conteúdo do rodapé -->
     <p>Bikcraft - Alguns direitos reservados</p>
-  </div>
+  </footer>
 </body>
 
 </html>
