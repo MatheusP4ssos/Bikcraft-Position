@@ -6,6 +6,8 @@ https://unsplash.com/pt-br/fotografias/motocicleta-preta-e-laranja-eeTJKC_wz34
 3 - Ajuda a entender sobre posicionamento e alinhamento
 https://origamid.com/projetos/grid
 
+4 - Transforma pequenos vídeos em gif
+
 ## Modelo Conceitual
 
 ![Layout](img/Layout.PNG)
